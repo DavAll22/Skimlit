@@ -27,7 +27,8 @@ The models used and compared are:
 
 ![image](https://github.com/DavAll22/Skimlit/assets/124359152/9ba25358-f316-429d-98fd-75169925406e)
 
-The model using the Tribrid method of concatenating position, token and character embeddings resulted in the highest accuracies overall. However it is found that the model struggles to predict accurately on sentances which are ambiguous in terms of their content (i.e. the sentence can belong in multiple classes, such as Background and Objective) which can be seen in the confusion matrix and the top 100 most wrong predictions.
+The model using the Tribrid method of concatenating position, token and character embeddings resulted in the highest accuracies overall. 
+However it is found that the model struggles to predict accurately on sentences which are ambiguous in terms of their content (i.e. the sentence can belong in multiple classes, such as Background and Objective) which can be seen in the confusion matrix and the top 100 most wrong predictions.
 
 ![image](https://github.com/DavAll22/Skimlit/assets/124359152/22b6d067-afad-4542-9e2d-c7f16cabedf3)
 
