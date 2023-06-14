@@ -7,6 +7,7 @@ Project replicating the NLP deep learning model used to classify sentences which
 * Functional API to build the models, tf.data API to build and zip the datasets
 * Label-encoded labels cor class names
 * Dropout layers to reduce overfitting
+* Using spaCy to enter text into the model
 
 The dataset used is called PubMed 200k RCT - 200,000 abstracts of randomised controlled trials (RCT) totalling 2.3 million sentences. Each sentence is labelled with their role in the abstract (https://github.com/Franck-Dernoncourt/pubmed-rct.git). The 20k dataset with the numbers replaced with @ symbols has been used for this project to help speed up training times and keep experiments shorter. Batches of 10% of this size are used for training and validation and evaluated on the whole validation dataset.
 
@@ -32,4 +33,4 @@ However it is found that the model struggles to predict accurately on sentences 
 
 ![image](https://github.com/DavAll22/Skimlit/assets/124359152/22b6d067-afad-4542-9e2d-c7f16cabedf3)
 
-Entering abstracts into the model results in the sentences being divided into their respective labels and achieves the task set out for the project in replicating the paper's model.
+Entering abstracts into the model using spaCy results in the sentences being divided into their respective labels and achieves the task set out for the project in replicating the paper's model.
