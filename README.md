@@ -1,6 +1,6 @@
 # Skimlit
 
-Project replicating the NLP deep learning model used to classify sentences which appear in sequential order within a scientific report abstract (https://arxiv.org/abs/1710.06071) in order to read the key infromation faster. The aim for this NLP model is to learn and classify sentences into the report structure categories. NLP text vectorization and emnbedding methods are used, including concatenation of character-level and token embeddings, as well as feature engineering.
+Project replicating the NLP deep learning model used to classify sentences which appear in sequential order within a scientific report abstract (https://arxiv.org/abs/1710.06071) in order to read the key infromation faster. The aim for this NLP model is to learn and classify sentences into the report structure categories. NLP text vectorization and embedding methods are used, including concatenation of character-level and token embeddings, as well as feature engineering.
 
 # This project uses:
 * TensorFlow 2.X to create, train and evaluate the performance of NLP embedding methods [Token embedding, Character-level embedding, Feature Engineering]
