@@ -5,9 +5,9 @@ Project replicating the NLP deep learning model used to classify sentences which
 # This project uses:
 * TensorFlow 2.X to create, train and evaluate the performance of NLP embedding methods [Token embedding, Character-level embedding, Feature Engineering]
 * Functional API to build the models, tf.data API to build and zip the datasets
-* Label-encoded labels cor class names
+* Label-encoded labels for class names
 * Dropout layers to reduce overfitting
-* Using spaCy to enter text into the model
+* Using SpaCy to enter text into the model
 
 The dataset used is called PubMed 200k RCT - 200,000 abstracts of randomised controlled trials (RCT) totalling 2.3 million sentences. Each sentence is labelled with their role in the abstract (https://github.com/Franck-Dernoncourt/pubmed-rct.git). The 20k dataset with the numbers replaced with @ symbols has been used for this project to help speed up training times and keep experiments shorter. Batches of 10% of this size are used for training and validation and evaluated on the whole validation dataset.
 
